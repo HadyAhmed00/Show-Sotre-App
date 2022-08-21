@@ -3,8 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/Show Store/app/src/main/res/layout/activity_main.xml" value="0.259963768115942" />
-        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/Show-Sotre-App/app/src/main/res/layout/activity_main.xml" value="0.259963768115942" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.142" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/amanda_avatar_background.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/hady_avatar_background.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ic_dodo.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ic_outline_email_24.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ic_outline_lock_open_24.xml" value="0.142" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ic_outline_person_24.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ic_ph_walk.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ic_timer.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ic_to_do_list.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ph_2hands.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ph_logo.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/ph_upwelcome.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/round_but.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/drawable/sh_round_tex.xml" value="0.1835" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/layout/activity_main.xml" value="0.259963768115942" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/layout/fragment_detales.xml" value="0.22" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/layout/fragment_instruction.xml" value="0.33" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/layout/fragment_show_list.xml" value="0.36186594202898553" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/layout/fragment_sign_in.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/layout/fragment_welcome.xml" value="0.33" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/layout/list_item.xml" value="0.36186594202898553" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/ShoeStore/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/Show-Sotre-App/app/src/main/res/drawable/ic_shoe_1.xml" value="0.1775" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/Show-Sotre-App/app/src/main/res/layout/fragment_detales.xml" value="0.36367753623188404" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/Show-Sotre-App/app/src/main/res/layout/fragment_show_list.xml" value="0.36367753623188404" />
+        <entry key="..\:/Users/Hady Ahmed/Documents/GitHub/Show-Sotre-App/app/src/main/res/layout/list_item.xml" value="0.36367753623188404" />
       </map>
     </option>
   </component>

@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">ShoeStore</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="let_go">Let\'s Go</string>
+    <string name="your_leg">"let your leg "</string>
+    <string name="instruction">"Instruction"</string>
+    <string name="name">Name</string>
+    <string name="size">Size</string>
+    <string name="cmp">Company</string>
+    <string name="detal">Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="detal_header">Please Enter You show Data</string>
+    <string name="log">Log Out</string>
+    <string name="log_in">Log In</string>
+    <string name="fragment_welcome">Welcome to Show Store</string>
+    <string name="fragment_instruction">Instruction</string>
+    <string name="fragment_show_list">Show List</string>
+    <string name="fragment_detales">Detales</string>
+    <!--    <string name="instruction">"Instruction "</string>-->
 </resources>

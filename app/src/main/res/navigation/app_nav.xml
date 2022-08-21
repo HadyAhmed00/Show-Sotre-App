@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.shoestore.screens.WelcomeFragment"
+        android:label="@string/fragment_welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_instructionFragment"
+            app:destination="@id/instructionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.shoestore.screens.SignInFragment"
+        android:label="@string/log_in"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/action_signInFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/instructionFragment"
+        android:name="com.example.shoestore.screens.InstructionFragment"
+        android:label="@string/instruction"
+        tools:layout="@layout/fragment_instruction">
+        <action
+            android:id="@+id/action_instructionFragment_to_showListFragment"
+            app:destination="@id/showListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalesFragment"
+        android:name="com.example.shoestore.screens.DetalesFragment"
+        android:label="@string/fragment_detales"
+        tools:layout="@layout/fragment_detales" />
+    <fragment
+        android:id="@+id/showListFragment"
+        android:name="com.example.shoestore.screens.ShowListFragment"
+        android:label="@string/fragment_show_list"
+        tools:layout="@layout/fragment_show_list">
+        <action
+            android:id="@+id/action_showListFragment_to_detalesFragment"
+            app:destination="@id/detalesFragment" />
+    </fragment>
+</navigation>

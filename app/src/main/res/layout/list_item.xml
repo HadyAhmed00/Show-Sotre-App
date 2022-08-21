@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/red"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/shoe_imge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shoe_4" />
+
+            <TextView
+                android:id="@+id/name_txt_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textColor="@color/Background"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/size_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/size"
+                android:textColor="@color/Background"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/compony_txt_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cmp"
+                android:textColor="@color/Background"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/discription_shew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detal"
+                android:textColor="@color/Background" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
