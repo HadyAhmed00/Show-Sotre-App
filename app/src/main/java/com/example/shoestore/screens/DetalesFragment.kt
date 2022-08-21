@@ -33,7 +33,7 @@ class DetalesFragment : Fragment() {
         buinding.lifecycleOwner = this
 
         buinding.saveBtn.setOnClickListener{
-            val a : Int = Random(5).nextInt()
+            val a : Int =(1..5).random()
             val tmpShow = Show( buinding.nameEditTxt.text.toString(),
                             buinding.componyEditTxt.text.toString(),
                             buinding.sizeEditTxt.text.toString(),

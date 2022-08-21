@@ -1,6 +1,7 @@
 package com.example.shoestore.screens
 
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -54,14 +55,15 @@ class ShowListFragment : Fragment() {
                 sizeShow.text=it.size
                 componyTxtShow.text=it.company
                 discriptionShew.text=it.description
-
+                Log.i("ShowListFragment","the A value is ${it.image}")
+//                shoeImge.setImageResource(R.drawable.ic_shoe_5)
 
                 when(it.image){
-                    1->shoeImge.setBackgroundColor(R.drawable.ic_shoe_1)
-                    2->shoeImge.setBackgroundColor(R.drawable.ic_shoe_2)
-                    3->shoeImge.setBackgroundColor(R.drawable.ic_shoe_3)
-                    4->shoeImge.setBackgroundColor(R.drawable.ic_shoe_4)
-                    5->shoeImge.setBackgroundColor(R.drawable.ic_shoe_5)
+                    1->shoeImge.setImageResource(R.drawable.ic_shoe_1)
+                    2->shoeImge.setImageResource(R.drawable.ic_shoe_2)
+                    3->shoeImge.setImageResource(R.drawable.ic_shoe_3)
+                    4->shoeImge.setImageResource(R.drawable.ic_shoe_4)
+                    5->shoeImge.setImageResource(R.drawable.ic_shoe_5)
 
                 }
             }
