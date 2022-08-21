@@ -17,5 +17,8 @@
     <string name="fragment_instruction">Instruction</string>
     <string name="fragment_show_list">Show List</string>
     <string name="fragment_detales">Detales</string>
+    <string name="add_bt">asd</string>
+    <string name="scrolview" />
+    <string name="sin_up">Sign Up</string>
     <!--    <string name="instruction">"Instruction "</string>-->
 </resources>

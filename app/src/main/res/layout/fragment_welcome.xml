@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <layout>
+    <!--For organizing the complex components-->
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -22,6 +23,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ph_upwelcome" />
 
+        <!--I found it very hard to make it with the Constant layout so I Will go with Liner Layout-->
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"

@@ -1,18 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layout>
-    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?><!--first I raped all the views in layout tags for the view binding -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/Background"
         tools:context=".screens.SignInFragment">
-
+        <!--Constraint Layout for organizing the main Views  and make the app as
+                    responsive as possible-->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/Background">
-
+            <!--very simple structure for Constraint Layout so i will go with liner layout-->
             <LinearLayout
                 android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
@@ -39,17 +41,17 @@
                     android:textColor="@color/white"
                     android:textSize="24sp" />
             </LinearLayout>
-
+            <!--very simple structure for Constraint Layout so i will go with liner layout-->
             <LinearLayout
                 android:id="@+id/linearLayout4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:gravity="center"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -67,17 +69,21 @@
                         android:textColor="@color/white"
                         android:textSize="16sp" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/SignUp_txt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="SignUp"
+                        android:background="@color/black"
+                        android:backgroundTint="@color/Background"
+                        android:text="@string/sin_up"
+                        android:textAllCaps="false"
                         android:textColor="@color/red"
-                        android:textSize="16sp" />
+                        app:cornerRadius="15dp" />
+
                 </LinearLayout>
             </LinearLayout>
-
+            <!--very simple structure for Constraint Layout so i will go with liner layout-->
             <LinearLayout
                 android:id="@+id/linearLayout3"
                 android:layout_width="match_parent"
@@ -137,7 +143,7 @@
 
                         android:text="Sing In"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/Background"
                         app:cornerRadius="10dp" />
                 </LinearLayout>
             </LinearLayout>

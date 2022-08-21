@@ -12,7 +12,9 @@
         tools:layout="@layout/fragment_welcome">
         <action
             android:id="@+id/action_welcomeFragment_to_instructionFragment"
-            app:destination="@id/instructionFragment" />
+            app:destination="@id/instructionFragment"
+            app:enterAnim="@anim/fad_in"
+            app:exitAnim="@anim/fad_out" />
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
@@ -21,7 +23,9 @@
         tools:layout="@layout/fragment_sign_in">
         <action
             android:id="@+id/action_signInFragment_to_welcomeFragment"
-            app:destination="@id/welcomeFragment" />
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@anim/fad_in"
+            app:exitAnim="@anim/fad_out" />
     </fragment>
     <fragment
         android:id="@+id/instructionFragment"
@@ -30,7 +34,9 @@
         tools:layout="@layout/fragment_instruction">
         <action
             android:id="@+id/action_instructionFragment_to_showListFragment"
-            app:destination="@id/showListFragment" />
+            app:destination="@id/showListFragment"
+            app:enterAnim="@anim/fad_in"
+            app:exitAnim="@anim/fad_out" />
     </fragment>
     <fragment
         android:id="@+id/detalesFragment"
@@ -44,6 +50,8 @@
         tools:layout="@layout/fragment_show_list">
         <action
             android:id="@+id/action_showListFragment_to_detalesFragment"
-            app:destination="@id/detalesFragment" />
+            app:destination="@id/detalesFragment"
+            app:enterAnim="@anim/fad_in"
+            app:exitAnim="@anim/fad_out" />
     </fragment>
 </navigation>

@@ -55,8 +55,6 @@ class ShowListFragment : Fragment() {
                 sizeShow.text=it.size
                 componyTxtShow.text=it.company
                 discriptionShew.text=it.description
-                Log.i("ShowListFragment","the A value is ${it.image}")
-//                shoeImge.setImageResource(R.drawable.ic_shoe_5)
 
                 when(it.image){
                     1->shoeImge.setImageResource(R.drawable.ic_shoe_1)
