@@ -20,36 +20,42 @@ import kotlin.random.Random
 
 class DetalesFragment : Fragment() {
 
-    lateinit var buinding : FragmentDetalesBinding
-    val viewMode : MainViewModel by activityViewModels()
+    lateinit var buinding: FragmentDetalesBinding
+    val viewMode: MainViewModel by activityViewModels()
+    var tmpShoe = Show("","","","",1)
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        buinding  = DataBindingUtil.inflate(layoutInflater,
-            R.layout.fragment_detales,container,false)
+        buinding = DataBindingUtil.inflate(
+            layoutInflater,
+            R.layout.fragment_detales, container, false
+        )
 
         buinding.lifecycleOwner = this
+        buinding.shoe = tmpShoe
 
-        buinding.saveBtn.setOnClickListener{
-            val a : Int =(1..5).random()
-            val tmpShow = Show( buinding.nameEditTxt.text.toString(),
-                            buinding.componyEditTxt.text.toString(),
-                            buinding.sizeEditTxt.text.toString(),
-                            buinding.descriptionEditTxt.text.toString(),a)
+        buinding.saveBtn.setOnClickListener {
+            val a: Int = (1..5).random()
+            val tmpShow = buinding.shoe
 
-            if(!tmpShow.isOk())
-            {
-                viewMode.addShow(tmpShow)
-                findNavController().navigateUp()
-            }else{
-                Toast.makeText(this.context,"Pleas fill All the fields",Toast.LENGTH_SHORT).show()
+            if(tmpShow!=null){
+                if (!tmpShow.isOk()) {
+                    tmpShow.image = a
+                    viewMode.addShow(buinding.shoe)
+                    findNavController().navigateUp()
+                } else {
+                    Toast.makeText(this.context, "Pleas fill All the fields", Toast.LENGTH_SHORT).show()
+                }
+            }
+            else{
+                Toast.makeText(this.context, "something want wring", Toast.LENGTH_SHORT).show()
             }
 
         }
 
-        buinding.cancelBtn.setOnClickListener{
+        buinding.cancelBtn.setOnClickListener {
             findNavController().navigateUp()
         }
         return buinding.root

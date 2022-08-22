@@ -14,7 +14,9 @@ class MainViewModel : ViewModel() {
         Log.i("MainViewModel","created for time")
         _show.value = arrayListOf()
     }
-    fun addShow(show: Show) {
-        _show.value?.add(show)
+    fun addShow(show: Show?) {
+        if (show != null) {
+            _show.value?.add(show)
+        }
     }
 }

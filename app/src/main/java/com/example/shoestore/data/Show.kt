@@ -1,10 +1,10 @@
 package com.example.shoestore.data
 
-class Show (name: String?, company: String?, size: String?, description: String?,image:Int) {
-    var name: String? = null
-    var company: String? = null
-    var size: String? = null
-    var description: String? = null
+class Show (name: String, company: String, size: String, description: String,image:Int) {
+    var name: String? = ""
+    var company: String? = ""
+    var size: String? = ""
+    var description: String? = ""
     var image:Int =0
 
 
