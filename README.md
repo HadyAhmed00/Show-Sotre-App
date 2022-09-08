@@ -23,13 +23,19 @@ There are a total of 5 screens here
 
 ## What I learned?
 
-* ViewModel and Live Data (observe live data and setup click listener)
-* Single Activity Architecture (implement multiple fragments and navigate between them with transition animation)
-* SafeArgs (pass data between fragment using bundle)
+* **ViewModel** and **Live Data** (observe live data and setup click listener)
+* **Single Activity Architecture** (implement multiple fragments and navigate between them with transition animation)
+* **SafeArgs** (pass data between fragment using bundle)
 * Layout Design with sytles.xml (use ConstraintLayout and standardize the design style across different layouts)
 * Data binding in layouts (implement both 1-way and 2-way data binding - e.g. in EditView)
-* ScrollView (dynamically insert item into ScrollView during runtime)
+* **ScrollView** (dynamically insert item into ScrollView during runtime)
 * Logout Menu (implement menu at the top left corner of the phone)
 
 ## What My app looks Like?
+
+
+
+
+
+https://user-images.githubusercontent.com/61879050/189083038-d33f0944-aecd-4669-a781-cdab81b091b7.mp4
 
